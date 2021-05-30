@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="form2.css">
+    <title>Registration Form</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <header>
+        <h1>Register Now</h1>
+        <main>
+        <form>
+            <div id='name'>
+               <label class="name" for="names">Name:
+                   <input type="text" class='name1' name="first name"><br>
+                   <label class="first_label">First Name</label>
+                   <input type="text" class='name2' name="last name">
+                   <label class="last_label">Last Name</label>
+               </label>
+            </div>
+            <br>
+            <div>
+                <label for="cmp" class="name" > Company:
+                    <input  class="cmp" type='text' id="cmp">
+                </label>
+            </div>
+            <br>
+            <div>
+               <label for="mail" class="name" > Email:
+                   <input  class="cmp" type='email' id="mail">
+               </label>
+            </div>
+            <br>
+            <div>
+               <label for="num"  class="name">Phone:
+                   <input type="code" class="area1" id="num"><br>
+                   <label class="area_label">Area code</label>
+                   <input type="code" maxlength="10" class="area2" id="num">
+                   <label class="no_label">Number</label>
+               </label>
+            </div>
+            <br>
+            <div>
+               <label for="sub"  class="name">Select Subject:
+                   <select class="option">
+                       <option selected="selected" disabled="disabled">--Choose Subject</option>
+                       <option value="">Python</option>
+                       <option value="">Html</option>
+                       <option value="">Java</option>
+                       <option value="">Java Script</option>
+                   </select>
+                </label>
+            </div>
+            <br>
+            <div>
+                <label id="beg">Are you beginner?
+                    <br>
+                    <input onclick="buttons();" type="radio" class="beg" name="reg" value=
+                    'YES' id="no">
+                    <label for="yes">Yes</label><br>
+                    <input onclick="buttons();" type="radio" name="reg" value=
+                    'NO'  class="beg" id="no">
+                    <label for="no">No</label><br>
+                </label>
+            </div>
+            <br>
+            <button type="submit" >REGISTER </button>
+        </form>
+        </main>
+    </header>
+        <script type="text/javascript">
+            function buttons() {
+                document.getElementById('reg').checked.removeChild;
+            }
+            // function submit(){
+            //     alert('YOu have registered')
+            // }
+        </script>
+</body>
+</html>

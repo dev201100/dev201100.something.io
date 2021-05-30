@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+
+}
+body{
+    background-image: url("sharon.jpg" );
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:40px;
+}
+h1{
+    width: 70%;
+    background-color: rgba(236, 196, 255, 0.795);
+    margin:auto;
+    color: black;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius:15px 0px;
+    opacity: 0.8;
+}
+main{
+    background-color: rgba(10, 10, 7, 0.267);
+    /* opacity: 0.6; */
+    /* text-align: center; */
+    /* padding:10px 0px; */
+    width: 70%;
+    margin:auto;
+}
+form{
+    padding: 10px;
+}
+#name{
+    width:100%;
+    height: 100px;
+    /* padding-right: 10px; */
+}
+div{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+label.name{
+    margin-left: 25px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    /* padding: right 25px; */
+    width: 7%;
+    color:white;
+    font-size:20px;
+    font-weight: 700;
+}
+.name1{
+    position: relative;
+    left:50px;
+    top:17px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size:16px;
+}
+.name2{
+    position: relative;
+    left:350px;
+    top:-27px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 20px;
+    font-size:16px;
+}
+.first_label{
+    position: relative;
+    left:140px;
+    top:19px;
+    color:white;
+    opacity:0.6;
+}
+.last_label{
+    position: relative;
+    left:110px;
+    top:19px;
+    color:white;
+    opacity:0.6;  
+}
+#cmp{
+    left:14px;
+    margin-bottom: 10px;;
+}
+.cmp{
+    position: relative;
+    left:50px;
+    top:17px;
+    line-height: 40px;
+    width: 60%;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size:16px;
+
+}
+.area1{
+    position: relative;
+    left:45px;
+    top:17px;
+    line-height: 40px;
+    width:10%;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size:16px;
+}
+.area2{
+    position: relative;
+    left:200px;
+    top:-27px;
+    line-height: 40px;
+    width: 25%;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size:16px;
+}
+.area_label{
+    position: relative;
+    left:140px;
+    top:19px;
+    color:white;
+    opacity:0.6;
+}
+.no_label{
+    position: relative;
+    left:-17px;
+    top:19px;
+    color:white;
+    opacity:0.6;
+}
+.option{
+    position: relative;
+    left:110px;
+    top:7px;
+    line-height: 40px;
+    width: 25%;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size:16px;
+}
+#beg,.beg{
+    position: relative;
+    margin-left: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    color:white;
+
+}
+button{
+    left: 180px;
+    top: 34px;
+    /* position: relative; */
+    margin:auto;
+    /* align-content: center; */
+    text-align:center;
+    color:#000000;
+    background-color:lightskyblue;
+    cursor: pointer;
+    padding: 10px 22px;
+    font-size: 16px;
+    /* outline: hidden; */
+    border: hidden;
+}
+button:hover {
+    background-color:rgba(236, 196, 255, 0.795);
+    color: white;
+}
